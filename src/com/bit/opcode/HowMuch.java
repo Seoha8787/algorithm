@@ -4,16 +4,9 @@ import java.util.Scanner;
 public class HowMuch {
 	public static void main(String[] args){
 		Scanner scanner =new Scanner(System.in);
-		String[] arr = new String[9];
-		arr[0] = "얼마에요?";
-		arr[1] = "%d원 입니다";
-		arr[2] = "몇개 드릴까요";
-		arr[3] = "%d개 주세요";
-		arr[4] = "총 금액은 %d 입니다";
-		arr[5] = "비싸요 깎아주세요";
-		arr[6] = "몇 퍼센트 DC할까요";
-		arr[7] = "&d입니다";
-		arr[8] = "안팔아요";
+		String[] arr = {
+				"얼마에요?","%d원 입니다","몇개 드릴까요?","%d개 주세요","총 금액은 %d 입니다","비싸요 깎아주세요",
+				"몇 퍼센트 DC할까요","%d 입니다","안팔아요"		};
 		int a = 0, b = 0, c =0, d = 0, e = 0;
 		System.out.print(arr[0]);
 		a =scanner.nextInt();
@@ -36,3 +29,4 @@ public class HowMuch {
 	}
 }
 	
+
